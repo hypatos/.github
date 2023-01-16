@@ -1,8 +1,9 @@
 config:
   default_branch_protection:
-    required_status_checks: null
-    enforce_admins: null
+#     required_status_checks: null
+#     enforce_admins: null
     required_pull_request_reviews:
       required_approving_review_count: 1
-    restrictions: null
-    require_last_push_approval: true
+      dismiss_stale_reviews: true
+#     restrictions: null
+#     require_last_push_approval: true
