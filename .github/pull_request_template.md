@@ -1,31 +1,7 @@
-## Change description
 
-> Description here
 
-## Type of change
-- [ ] Bug fix (fixes an issue)
-- [ ] New feature (adds functionality)
-
-## Related issues
-
-> Fix [#1]() 
-
-## Checklists
-
-### Development
-
-- [ ] Lint rules pass locally
-- [ ] Application changes have been tested thoroughly
-- [ ] Automated tests covering modified code pass
-
-### Security
-
-- [ ] Security impact of change has been considered
-- [ ] Code follows company security practices and guidelines
-
-### Code review 
-
-- [ ] Pull request has a descriptive title and context useful to a reviewer. Screenshots or screencasts are attached as necessary
-- [ ] "Ready for review" label attached and reviewers assigned
-- [ ] Changes have been reviewed by at least one other contributor
-- [ ] Pull request linked to task tracker where applicable
+<!--
+  Please add a reference to the Jira ticket in the description of the PR.
+  Don't forget to refer the ticket number in the PR title in the form of "TICKET-123 My PR short description" so it is also visible in the Jira ticket details. You can omit a ticket number if there is no corresponding ticket.
+  Feel free to delete this Markdown comment or leave it be. It is not going to be visible when you are done creating the PR.
+-->
