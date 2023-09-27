@@ -7,3 +7,9 @@ config:
       dismiss_stale_reviews: true
 #     restrictions: null
 #     require_last_push_approval: true
+  snyk-check:
+    state: enabled
+    mode: selected
+    selected_repos:
+      - tcyran-test
+    excluded_repos: []
