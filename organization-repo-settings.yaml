@@ -13,3 +13,5 @@ config:
     selected_repos:
       - tcyran-test
     excluded_repos: []
+    snyk_contexts:
+      - 'security/snyk (Hypatos)'
