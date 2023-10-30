@@ -13,8 +13,8 @@ config:
     state: enabled
     mode: selected
     selected_repos:
-      - files-cotnext
-      - document-context
+      - files-context
+      - documents-context
       - external-validation-service
       - enrichment-data-api
       - tcyran-test
