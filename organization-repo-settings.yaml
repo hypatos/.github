@@ -1,22 +1,22 @@
 config:
   default:
     default_branch_protection:
-  #     required_status_checks: null
-  #     enforce_admins: null
       required_pull_request_reviews:
         required_approving_review_count: 1
         dismiss_stale_reviews: true
       required_conversation_resolution: true
-  #     restrictions: null
-  #     require_last_push_approval: true
-  # tcyran-test:
-  #   default_branch_protection:
-  #     required_pull_request_reviews:
-  #       required_approving_review_count: 2
+  studio-backend:
+    default_branch_protection:
+      required_pull_request_reviews:
+        required_approving_review_count: 1
   snyk_check:
     state: enabled
     mode: selected
     selected_repos:
+      - files-cotnext
+      - document-context
+      - external-validation-service
+      - enrichment-data-api
       - tcyran-test
     excluded_repos: []
     snyk_contexts:
