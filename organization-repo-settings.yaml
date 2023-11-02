@@ -16,7 +16,6 @@ config:
       - files-context
       - documents-context
       - external-validation-service
-      - enrichment-data-api
       - tcyran-test
     excluded_repos: []
     snyk_contexts:
