@@ -9,6 +9,10 @@ config:
     default_branch_protection:
       required_pull_request_reviews:
         required_approving_review_count: 1
+  studio-ui:
+    default_branch_protection:
+      required_pull_request_reviews:
+        required_approving_review_count: 1
   snyk_check:
     state: enabled
     mode: selected
