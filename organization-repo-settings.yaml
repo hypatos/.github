@@ -17,6 +17,14 @@ config:
     state: enabled
     mode: all
     selected_repos: []
-    excluded_repos: []
+    excluded_repos: 
+     - enrichment-hub
+     - enrichment-data-api
+     - composite-enrichment-service
+     - api-gateway-extauth
+     - openai-kotlin
+     - enrichment-service
+     - enrichment-data-streams
+     - document-api-internal
     snyk_contexts:
       - 'security/snyk (Hypatos)'
