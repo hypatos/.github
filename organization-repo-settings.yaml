@@ -22,5 +22,15 @@ config:
       - external-validation-service
       - tcyran-test
     excluded_repos: []
+    snyk_project_types:
+      - golangdep
+      - gomodules
+      - gradleA
+      - npm
+      - pip
+      - gradle
+      - maven
+      - pip
+      - yarn
     snyk_contexts:
       - 'security/snyk (Hypatos)'
