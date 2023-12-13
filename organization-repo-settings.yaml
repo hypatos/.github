@@ -20,13 +20,17 @@ config:
       required_conversation_resolution: false
   snyk_check:
     state: enabled
-    mode: selected
-    selected_repos:
-      - files-context
-      - documents-context
-      - external-validation-service
-      - tcyran-test
-    excluded_repos: []
+    mode: all
+    selected_repos: []
+    excluded_repos:
+      - enrichment-hub
+      - enrichment-data-api
+      - composite-enrichment-service
+      - api-gateway-extauth
+      - openai-kotlin
+      - enrichment-service
+      - enrichment-data-streams
+      - document-api-internal
     snyk_project_types:
       - golangdep
       - gomodules
