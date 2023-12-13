@@ -13,18 +13,33 @@ config:
     default_branch_protection:
       required_pull_request_reviews:
         required_approving_review_count: 1
+  composite-enrichment-service:
+    default_branch_protection:
+      required_pull_request_reviews:
+        required_approving_review_count: 1
+      required_conversation_resolution: false
   snyk_check:
     state: enabled
     mode: all
     selected_repos: []
-    excluded_repos: 
-     - enrichment-hub
-     - enrichment-data-api
-     - composite-enrichment-service
-     - api-gateway-extauth
-     - openai-kotlin
-     - enrichment-service
-     - enrichment-data-streams
-     - document-api-internal
+    excluded_repos:
+      - enrichment-hub
+      - enrichment-data-api
+      - composite-enrichment-service
+      - api-gateway-extauth
+      - openai-kotlin
+      - enrichment-service
+      - enrichment-data-streams
+      - document-api-internal
+    snyk_project_types:
+      - golangdep
+      - gomodules
+      - gradleA
+      - npm
+      - pip
+      - gradle
+      - maven
+      - pip
+      - yarn
     snyk_contexts:
       - 'security/snyk (Hypatos)'
