@@ -42,5 +42,6 @@ config:
       - maven
       - pip
       - yarn
+      - poetry
     snyk_contexts:
       - 'security/snyk (Hypatos)'
