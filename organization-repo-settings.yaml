@@ -32,6 +32,7 @@ config:
       - enrichment-service
       - enrichment-data-streams
       - document-api-internal
+      - studio-ui
     snyk_project_types:
       - golangdep
       - gomodules
