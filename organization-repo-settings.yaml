@@ -5,6 +5,7 @@ config:
         required_approving_review_count: 1
         dismiss_stale_reviews: true
       required_conversation_resolution: true
+      enforce_admins: true
   tcyran-test:
     default_branch_protection:
       required_pull_request_reviews:
