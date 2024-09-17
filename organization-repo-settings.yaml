@@ -10,7 +10,7 @@ config:
     default_branch_protection:
       required_pull_request_reviews:
         required_approving_review_count: 1
-      required_conversation_resolution: false
+      required_conversation_resolution: true
       enforce_admins: true
   studio-backend:
     default_branch_protection:
