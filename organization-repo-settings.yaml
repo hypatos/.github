@@ -42,6 +42,11 @@ config:
       required_pull_request_reviews:
         required_approving_review_count: 0
       required_conversation_resolution: false
+  ai-platform-monorepo:
+    default_branch_protection:
+      required_pull_request_reviews:
+        required_approving_review_count: 0
+      required_conversation_resolution: false
   snyk_check:
     state: enabled
     mode: all
